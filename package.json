@@ -8,12 +8,15 @@
     "gatsby"
   ],
   "scripts": {
+    "postinstall": "npm run theme",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "theme": "chakra-cli tokens src/theme/index.ts",
+    "theme:watch": "chakra-cli tokens src/theme/index.ts --watch"
   },
   "dependencies": {
     "@chakra-ui/gatsby-plugin": "^3.1.3",
@@ -29,9 +32,15 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@chakra-ui/cli": "^2.4.1",
     "@types/node": "^20.3.3",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "typescript": "^5.1.6"
+  },
+  "overrides": {
+    "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
+      "react": "^18.2.0"
+    }
   }
 }
