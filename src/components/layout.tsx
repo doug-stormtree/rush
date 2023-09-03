@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import NavBar from './NavBar'
 
 interface LayoutProps {
   children: JSX.Element | JSX.Element[]
@@ -7,7 +8,10 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    {children}
+    <main>
+      <NavBar />
+      {children}
+    </main>
   )
 }
 
