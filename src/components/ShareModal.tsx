@@ -19,9 +19,12 @@ import { FaRegCopy } from 'react-icons/fa';
 
 export default function ShareModalButton() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  
+  // setUrl not working until url params and map are implemented
   const [url, setUrl] = useState("https://whatstherush.ca/")
-  const { onCopy, value, hasCopied } = useClipboard(url);
 
+  const { onCopy, value, hasCopied } = useClipboard(url);
+  
   return (
     <>
       <Button
@@ -30,7 +33,6 @@ export default function ShareModalButton() {
           onOpen();
           //setUrl(props.getShareURL());
         }}
-        fontWeight='medium'
       >Share</Button>
       <Modal
         isCentered

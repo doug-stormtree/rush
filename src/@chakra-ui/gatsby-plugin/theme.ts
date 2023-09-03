@@ -37,6 +37,7 @@ const theme = extendTheme({
     Button: {
       baseStyle: {
         fontFamily: 'var(--chakra-fonts-poppins)',
+        fontWeight: '500',
         _hover: {
           color: 'rush.500'
         },
