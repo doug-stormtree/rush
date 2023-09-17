@@ -52,6 +52,7 @@ section_two:
     - >-
       Advocate for your community to increase public green spaces and cooling
       architecture.
+image: /media/BeatTheHeat.png
 ---
 
 All life is vulnerable to extreme heat. Prolonged heat dries out landscapes, increases risk of fires, can shorten growing seasons, and create conditions for viruses and bacteria to thrive. 

@@ -19,8 +19,8 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "",
-      publicFolder: "static",
+      mediaRoot: "media",
+      publicFolder: "public",
     },
   },
   schema: {
@@ -41,6 +41,12 @@ export default defineConfig({
             label: "Subtitle",
             name: "question",
             type: "string",
+            required: true,
+          },
+          {
+            label: "Image",
+            name: "image",
+            type: "image",
             required: true,
           },
           {
