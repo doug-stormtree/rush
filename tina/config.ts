@@ -9,7 +9,6 @@ const uiListMinMaxOpts = {
 }
 
 export default defineConfig({
-  client: { skip: true },
   branch,
   clientId: null, // Get this from tina.io
   token: null, // Get this from tina.io

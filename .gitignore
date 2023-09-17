@@ -131,3 +131,8 @@ src/gatsby-types.d.ts
 .pnp.*
 
 node_modules
+tina/config.ts
+
+# macOS files
+.DS_Store
+**/.DS_Store
