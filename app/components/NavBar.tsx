@@ -9,7 +9,7 @@ import {
   useStyleConfig,
 } from '@chakra-ui/react';
 import { FiMessageSquare } from 'react-icons/fi';
-import ShareModalButton from './sharemodal';
+import ShareModalButton from './ShareModal';
 
 export default function NavBar() {
   const styles = useStyleConfig('NavBar');
