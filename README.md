@@ -1,49 +1,40 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal TypeScript Starter
-</h1>
+# Welcome to the RUSH Initiative Web Map
 
-## 🚀 Quick start
+The RUSH (Resilient Urban Systems & Habitat) Initiative is exploring this work on the unceded and unsurrendered territories of the lək̓ʷəŋən and SENĆOŦEN speaking peoples. Maps have a long history of erasure of Indigenous cultures and territories. Our goal is to promote tools that support the healing of ecosystems and communities as a way to practice reconciliation, gratitude, and respect.
 
-1.  **Create a Gatsby site.**
+By showcasing the research, creativity, and innovation happening in this region on an interactive landing page, we hope to provide a shared language on the vulnerabilities and opportunities for long-term health and climate action.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+We want to change the critical questions that get asked in planning meetings. How is a development proposal an opportunity to increase resilience to climate-related events? How can we support neighbourhoods to adapt and thrive in changing conditions? If we extend and connect the ecosystem features across the urban landscape, what are all the benefits people would feel? How can we work with Nature to create a quality of life for all?
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
+This is a tool for people to connect habitats, restore watersheds, feel a sense of belonging, and start conversations that lead to a brighter future. Please use the feedback button to let us know what you think and any suggestions you have.
 
-2.  **Start developing.**
+## Development
 
-    Navigate into your new site’s directory and start it up.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+### Getting Started
 
-3.  **Open the code and start customizing!**
+First, run the development server:
 
-    Your site is now running at http://localhost:8000!
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-4.  **Learn more**
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## 🚀 Quick start (Netlify)
+### Learn More
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+To learn more about Next.js, take a look at the following resources:
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
