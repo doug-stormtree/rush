@@ -11,7 +11,7 @@ section_one:
     - >-
       you have shady places of refuge, cool buildings, and drinking fountains
       nearby.
-    - your area follows the tree equity rule.
+    - your area follows the 30-30-30 tree equity rule.
   negative_title: Start sweating if...
   negative_points:
     - when you pinpoint your location on the map it is in a red heat dome.
