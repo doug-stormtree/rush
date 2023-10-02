@@ -17,7 +17,13 @@ dependencies:
   '@emotion/styled':
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.21)(react@18.2.0)
+  '@fontsource/inter':
+    specifier: ^5.0.8
+    version: 5.0.8
   '@fontsource/poppins':
+    specifier: ^5.0.8
+    version: 5.0.8
+  '@fontsource/raleway':
     specifier: ^5.0.8
     version: 5.0.8
   '@tinacms/cli':
@@ -41,6 +47,13 @@ dependencies:
   framer-motion:
     specifier: ^10.16.4
     version: 10.16.4(react-dom@18.2.0)(react@18.2.0)
+  "inter\n\n":
+    specifier: |+
+      link:@fontsource/inter
+
+    version: |+
+      link:@fontsource/inter
+
   next:
     specifier: 13.4.19
     version: 13.4.19(@babel/core@7.22.15)(react-dom@18.2.0)(react@18.2.0)
@@ -2256,8 +2269,16 @@ packages:
     resolution: {integrity: sha512-m0G6wlnhm/AX0H12IOWtK8gASEMffnX08RtKkCgTdHb9JpHKGloI7icFfLg9ZmQeavcvR0PKmzxClyuFPSjKWw==}
     dev: false
 
+  /@fontsource/inter@5.0.8:
+    resolution: {integrity: sha512-28knWH1BfOiRalfLs90U4sge5mpQ8ZH6FS0PTT+IZMKrZ7wNHDHRuKa1kQJg+uHcc6axBppnxll+HXM4c7zo/Q==}
+    dev: false
+
   /@fontsource/poppins@5.0.8:
     resolution: {integrity: sha512-P8owfYWluoUY5Nyzk4gT/L6LmLmseP6ezFWhj6VBUa5pRIdnCvNJpoQ6i/vhekjtJOfqX6nKlB+LCttoUl2GQQ==}
+    dev: false
+
+  /@fontsource/raleway@5.0.8:
+    resolution: {integrity: sha512-b6ZTFQ7sZSUSm/ny0SNXdafcu+p6jpIzpEc1Woxym4qkuAp3kONZJs9r+HYPfMm/fDW1VBIzZxVOLhglYzdw6Q==}
     dev: false
 
   /@formatjs/ecma402-abstract@1.17.1:
