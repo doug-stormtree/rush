@@ -1,6 +1,6 @@
 ---
 title: Beat The Heat
-question: >-
+subtitle: >-
   Smokin’ hot spells are happening now with climate change. Is your
   neighbourhood a heat island?
 section_one:
@@ -24,7 +24,7 @@ section_one:
     - your neighbourhood does not follow the tree equity rule.
 section_two:
   title: Create a cool climate.
-  positive_points:
+  points:
     - >-
       Figure out whether your community meets the tree equity rule and call your
       municipality if it doesn’t. Extending and connecting natural spaces across

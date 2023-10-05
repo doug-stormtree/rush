@@ -1,15 +1,21 @@
 'use client'
 
-import type { ReactElement } from 'react'
+import { Spinner } from '@chakra-ui/react'
 import QuestionTile from './components/QuestionMenu/QuestionTile'
+import useQuestions from './components/QuestionMenu/useQuestions'
 
 export default function Page() {
+  const { isLoading, questions, error } = useQuestions()
+
   return (
-    <QuestionTile
-      title='Neighbourhood to Naturehood'
-      subtitle='Make the human-Nature connection for your health and inner peace. Live your best life in a Naturehood.'
-      imageURL='https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shaqi_jrvej.jpg/500px-Shaqi_jrvej.jpg'
-      expanded
-    />
+    <>
+      { isLoading ? (
+        <Spinner />
+      ) : questions ? (
+        <QuestionTile question={questions[0]} expanded={true} />
+      ) : (
+        <span>{JSON.stringify(error)}</span>
+      )}
+    </>
   )
 }

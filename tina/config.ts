@@ -39,7 +39,7 @@ export default defineConfig({
           },
           {
             label: "Subtitle",
-            name: "question",
+            name: "subtitle",
             type: "string",
             required: true,
           },
@@ -53,11 +53,13 @@ export default defineConfig({
             label: "Section One",
             name: "section_one",
             type: "object",
+            required: true,
             fields: [
               {
                 label: "Positive Heading",
                 name: "positive_title",
                 type: "string",
+                required: true,
               },
               {
                 label: "Positive Points",
@@ -65,11 +67,13 @@ export default defineConfig({
                 type: "string",
                 list: true,
                 ui: uiListMinMaxOpts,
+                required: true,
               },
               {
                 label: "Negative Heading",
                 name: "negative_title",
                 type: "string",
+                required: true,
               },
               {
                 label: "Negative Points",
@@ -77,6 +81,7 @@ export default defineConfig({
                 type: "string",
                 list: true,
                 ui: uiListMinMaxOpts,
+                required: true,
               }
             ]
           },
@@ -84,18 +89,21 @@ export default defineConfig({
             label: "Section Two: Make Your Move",
             name: "section_two",
             type: "object",
+            required: true,
             fields: [
               {
                 label: "Banner Action",
                 name: "title",
                 type: "string",
+                required: true,
               },
               {
                 label: "Bullet Points",
-                name: "positive_points",
+                name: "points",
                 type: "string",
                 list: true,
                 ui: uiListMinMaxOpts,
+                required: true,
               },
             ]
           },
